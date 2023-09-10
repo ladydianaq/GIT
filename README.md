@@ -1,5 +1,3 @@
-# GIT
-
 <h1>
 Comandos de Git
 </h1>
@@ -13,21 +11,25 @@ Git es un software de control de versiones. Pensando en la eficiencia, la confia
 <p>Establece el nombre del usuario</p>
 
 `git config --global user.name "Mona Lisa"`
+
 <p>
 confirmacion de establecer el nombre de usuario
 </p>
 
 `git config --global user.name`
+
 <p>
 configuracion de correo electronico
 </p>
 
 `git config --global user.email "tu email"`
+
 <p>
 confirma la configuracion de correo electronico
 </p>
 
 `git config --global user.email`
+
 <h3>
 <b>crear una clave ssh</b>
 </h3>
@@ -53,12 +55,6 @@ id_ed25519.pub
 </ul>
 
 <h5>
-Generar una nueva clave ssh
-</h5>
-<p>
-Sigue el siguiente link:
-https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-</p>
 Generar una nueva clave ssh
 </h5>
 <p>
