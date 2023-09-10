@@ -61,3 +61,59 @@ Generar una nueva clave ssh
 Sigue el siguiente link:
 https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 </p>
+
+<h3>
+<b>Agregar archivos en github desde git</b>
+</h3>
+<p>
+Antes seguir los pasos: 
+</p>
+<lo>
+<li>ubicarte en la carpeta donde subiras los arhivos a github</li>
+<li>abrir git bash en la carpeta deonde te ubicaste</li>
+<li>generar un nuevo repositorio en github</li>
+<li>copiar el link luego de crear el repositorio en github</li>
+<li>ahora seguir los siguientes pasos</li>
+</lo>
+
+<p>
+Inicializar el repositorio
+</p>
+
+`git init`
+
+<p>
+agreagra el link
+</p>
+
+`git remote add origin "https://github.com/name_user/GIT.git"`
+
+<p>
+verificar el estado de sus archivos
+</p>
+
+`git status`
+
+<p>
+agregar los archivos
+</p>
+
+`git add -A`
+
+<p>
+volver a verificar el estado
+</p>
+
+`git status`
+
+<p>
+agregar el commit
+</p>
+
+`git commit -m "especificar los cambios que realizaste"`
+
+<p>
+pasar los archivos a github
+</p>
+
+`git push origin master`
